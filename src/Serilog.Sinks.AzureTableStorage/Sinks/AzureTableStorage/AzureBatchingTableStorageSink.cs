@@ -13,8 +13,7 @@
 // limitations under the License.
 
 using System.Threading.Tasks;
-using Microsoft.WindowsAzure.Storage;
-using Microsoft.WindowsAzure.Storage.Table;
+using Microsoft.Azure.Cosmos.Table;
 using Serilog.Events;
 using Serilog.Sinks.AzureTableStorage.AzureTableProvider;
 using Serilog.Sinks.AzureTableStorage.KeyGenerator;
